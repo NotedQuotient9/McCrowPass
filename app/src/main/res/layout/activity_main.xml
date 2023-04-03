@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f5d442"
+    >
+
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:src="@drawable/baseline_arrow_upward_24"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tint="#870404" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
